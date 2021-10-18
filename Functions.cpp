@@ -6,6 +6,10 @@ int add (int a, int b){
     return a+b;
 }
 
+int multiply(int a, int b){
+    return a*b;
+}
+
 int main(){
 
     int FN, SN, result;
@@ -15,7 +19,9 @@ int main(){
     cout<<"Enter the Second Number";
     cin>>SN;
 
-    result=add(FN,SN);
-    cout<<"Result is: "<<result;
+    sum=add(FN,SN);
+    cout<<"Sum is: "<<sum<<endl;
+    mul = multiply(FN, SN);
+    cout<<"Multiplication is: "<<mul;
     return 0;
 }
