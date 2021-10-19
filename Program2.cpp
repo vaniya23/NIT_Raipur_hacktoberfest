@@ -8,6 +8,7 @@ cout<<"*\n";
 cout<<"**\n";
 cout<<"***\n";
 cout<<"****\n";
+cout<<"*****\n";
 cout<<"enter the number of rows ="<<" ";
 cin>>number;
 i=1;
