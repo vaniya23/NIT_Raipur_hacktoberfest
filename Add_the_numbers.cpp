@@ -2,7 +2,7 @@
 #include<string.h>
 using namespace std;
 int main(){
-    int T_num,i,j,x,sum;
+    int T_num,i,j,x,sum,sum1=0;
     cin>>T_num;
     int arr[T_num];
     for ( i = 0; i < T_num; i++)
