@@ -11,6 +11,6 @@ int main(){
         num=num/10;
     }
     first_num=num;
-    printf("The Sum of First and last Digits is: %d",first_num+last_num);
+    printf("The Sum of  the First and last Digits is: %d",first_num+last_num);
     
 }
