@@ -2,17 +2,17 @@
 #include<string.h>
 using namespace std;
 int main(){
-    int T_num,i,j,x,sum,sum1=0;
+    int T_num,k,j,x,sum,sum1=0;
     cin>>T_num;
     int arr[T_num];
-    for ( i = 0; i < T_num; i++)
+    for ( k = 0; k < T_num; k++)
     {
-        cin>>arr[i];
+        cin>>arr[k];
     }
-    for ( i = 0; i < T_num; i++)
+    for ( k = 0; k < T_num; k++)
     {
         sum=0;
-        j=arr[i];
+        j=arr[k];
         while (j!=0)
         {
             sum+=(j%10);
