@@ -1,16 +1,16 @@
 #include<stdio.h>
 
 int main(){
-    int first_num,last_num,num;
+    int first_num,last_num,n;
 
-    scanf("%d",&num);
-    last_num=num%10;
+    scanf("%d",&n);
+    last_num=n%10;
 
-    while (num>=10)
+    while (n>=10)
     {
-        num=num/10;
+        n=n/10;
     }
-    first_num=num;
+    first_num=n;
     printf("The Sum of  the First and last Digits is: %d",first_num+last_num);
     
 }
