@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-int i,n,star;
+int i,n,star,temp;
 cout<<"Program to print the following star pattern having n number of rows\n";
 cout<<"*\n";
 cout<<"**\n";
