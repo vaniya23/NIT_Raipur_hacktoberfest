@@ -16,7 +16,7 @@ int div(int a, int b){
 
 int main(){
 
-    int FN, SN, result;
+    int FN, SN, result,temp;
 
     cout<<"Enter the First Number: ";
     cin>>FN;
